@@ -1,0 +1,170 @@
+
+body {
+
+	background-color: #FFFFFF;
+	color: #3C4246;
+	text-align: center;
+	font-family: 'Playfair Display', serif;;
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+
+h1, h2 {
+	font-family: Futura;
+}
+
+img {
+	align-items: center;
+}
+
+
+h1 {
+	text-transform: uppercase;
+	color: #F96900;
+	text-align: center;
+
+}
+
+h2 {
+	font-weight: lighter;
+}
+
+
+
+/* id design */
+
+
+
+#container {
+			background: white;
+			padding: 50px 200px;
+			width: 1000px; 
+			margin: 10px auto;
+			border: none;
+			box-shadow: none
+}
+
+
+
+/* class design */
+
+.img-circle {
+	width: 20%; 
+    height: 20%; 
+    object-fit: contain;
+    border-radius: 38%;
+    box-shadow: 5px 5px 3px #F96900;
+
+}
+.box-dashed {
+	background-color: white;
+	padding: 30px;
+	border: 3.5px dashed #F96900; 
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px #F96900;
+	margin: 55px auto;
+}
+
+.box-dashed p {
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+
+.box-blank {
+	border: none; 
+}
+
+.box-blank h2, a {
+	color: #F96900
+}
+
+.btn-orange {
+	text-decoration: none;
+	font-family: futura;
+	color:white;
+	transition: color 0.5s ease;
+	font-size: 25px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: #F96900;
+	padding: 15px 20px;
+	border-radius: 5%;
+}
+
+ .btn-orange:hover {
+	color:black;
+
+}
+
+.box-circle {
+	
+	background-color: white;
+	padding: 30px;
+	border: none; 
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px #F96900;
+	margin: 55px auto;
+	
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	color: #F96900;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 15px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.list-inline i:hover {
+	font-size: 80px;
+	color: black;
+	transition: 0.5s;
+}
+
+/* media resize */
+
+
+@media (max-width: 900px) {
+
+	#container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 750px) {
+
+	#container {
+		width: 400px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
